@@ -1,2 +1,3 @@
 git remote add origin https://github.com/cris1972/delcomStack.git
 git push -u origin master
+git push -u origin master
