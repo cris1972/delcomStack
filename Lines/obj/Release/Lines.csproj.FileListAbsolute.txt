@@ -1,0 +1,15 @@
+D:\Документы\Misha\stack\Lines\bin\Release\linesk.exe.manifest
+D:\Документы\Misha\stack\Lines\bin\Release\linesk.application
+D:\Документы\Misha\stack\Lines\bin\Release\linesk.exe
+D:\Документы\Misha\stack\Lines\bin\Release\linesk.pdb
+D:\Документы\Misha\stack\Lines\obj\Release\Lines.csprojAssemblyReference.cache
+D:\Документы\Misha\stack\Lines\obj\Release\linesk.FormMain.resources
+D:\Документы\Misha\stack\Lines\obj\Release\linesk.Properties.Resources.resources
+D:\Документы\Misha\stack\Lines\obj\Release\linesk.FormEndGame.resources
+D:\Документы\Misha\stack\Lines\obj\Release\linesk.FormGameSetting.resources
+D:\Документы\Misha\stack\Lines\obj\Release\Lines.csproj.GenerateResource.cache
+D:\Документы\Misha\stack\Lines\obj\Release\Lines.csproj.CoreCompileInputs.cache
+D:\Документы\Misha\stack\Lines\obj\Release\linesk.exe.manifest
+D:\Документы\Misha\stack\Lines\obj\Release\linesk.application
+D:\Документы\Misha\stack\Lines\obj\Release\linesk.exe
+D:\Документы\Misha\stack\Lines\obj\Release\linesk.pdb
