@@ -1,4 +1,6 @@
-﻿namespace linesk
+﻿using System.Windows.Forms;
+namespace linesk
+   
 {
     partial class FormMain
     {
@@ -29,18 +31,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButtonNewGame = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonFullscreen = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonChangePlayersName = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonGameSetting = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonExit = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip1 = new ToolStrip();
+            this.toolStripButtonNewGame = new ToolStripButton();
+            this.toolStripButtonFullscreen = new ToolStripButton();
+            this.toolStripButtonChangePlayersName = new ToolStripButton();
+            this.toolStripButtonGameSetting = new ToolStripButton();
+            this.toolStripButtonExit = new ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStrip1
             // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStrip1.Items.AddRange(new ToolStripItem[] {
             this.toolStripButtonNewGame,
             this.toolStripButtonFullscreen,
             this.toolStripButtonChangePlayersName,
@@ -94,7 +96,7 @@
             // 
             // toolStripButtonExit
             // 
-            this.toolStripButtonExit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonExit.DisplayStyle = ToolStripItemDisplayStyle.Text;
             this.toolStripButtonExit.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonExit.Image")));
             this.toolStripButtonExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonExit.Name = "toolStripButtonExit";
@@ -105,7 +107,7 @@
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(810, 640);
             this.Controls.Add(this.toolStrip1);
@@ -116,9 +118,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Головоломка Линии";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
-            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FormMain_MouseClick);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Paint += new PaintEventHandler(this.Form1_Paint);
+            this.MouseClick += new MouseEventHandler(this.FormMain_MouseClick);
+            this.FormClosed += new FormClosedEventHandler(this.Form1_FormClosed);
             this.Resize += new System.EventHandler(this.FormMain_Resize);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
@@ -129,12 +131,12 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButtonNewGame;
-        private System.Windows.Forms.ToolStripButton toolStripButtonFullscreen;
-        private System.Windows.Forms.ToolStripButton toolStripButtonExit;
-        private System.Windows.Forms.ToolStripButton toolStripButtonGameSetting;
-        private System.Windows.Forms.ToolStripButton toolStripButtonChangePlayersName;
+        private ToolStrip toolStrip1;
+        private ToolStripButton toolStripButtonNewGame;
+        private ToolStripButton toolStripButtonFullscreen;
+        private ToolStripButton toolStripButtonExit;
+        private ToolStripButton toolStripButtonGameSetting;
+        private ToolStripButton toolStripButtonChangePlayersName;
     }
 }
 
